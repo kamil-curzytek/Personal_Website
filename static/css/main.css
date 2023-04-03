@@ -1,0 +1,125 @@
+body {
+  background-color: #f5f7fa;
+  padding: 40px; /* Padding is used to create space around an element's content, inside of any defined borders */
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+  display: flex; /* Vertically aligns the flex items when the items do not use all available space (left / right side by side) */
+  width: 1200px;
+  margin-left: auto; /* Margins are used to create space around elements, outside of any defined borders */
+  margin-right: auto;
+  background-color: #fff;
+  box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
+}
+
+.left-side {
+    width: 370px;
+    background-color: #1e2939;
+    color: #fff;
+}
+
+.right-side{
+    height: 860px;
+}
+
+.right-header {
+    width: 830px;
+    height: 60px;
+    background-color: #1e2939;
+    padding-top: 40px;
+    display: inline-block;
+    text-align: center;
+}
+
+.right-text {
+    width: 830px;
+    background-color: #fff;
+}
+
+footer {
+    width: 1200px;
+    height: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: right;
+    background-color: #1e2939;
+    color: white;
+}
+
+.photo {
+    width: 370px;
+}
+
+.name {
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 500px;
+  line-height: 24px;
+  margin-top: 50px;
+}
+
+.personal{
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 60px;
+    padding-left: 50px;
+}
+
+.contacts_list {
+    list-style: none;
+    padding-left: 0;
+  }
+
+.contacts_item{
+  font-size: 16px;
+  font-weight: 200;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.contacts_data{
+    color:aqua
+}
+
+.widget{
+    padding-left: 80px;
+    margin-top: 70px;
+}
+
+.widget-link {
+    color: #fff;
+    background-color: #ff6b08;
+    padding-top: 20px;
+    padding-right: 43px;
+    padding-bottom: 20px;
+    padding-left: 43px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    box-shadow: 0px 0px 13px 1px rgba(255,107,8,0.4);
+  }
+  
+.widget-link:hover {
+    box-shadow: 0px 6px 32px 1px rgba(255,107,8,0.92);
+  }
+
+.widget-link_right {
+    color: rgba(10, 6, 3, 0.92);
+    background-color: #A9A9A9;
+    padding-top: 20px;
+    padding-right: 40px;
+    padding-bottom: 18px;
+    padding-left: 40px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    box-shadow: 0px 0px 6px 1px aqua;
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+
+.widget-link_right:hover {
+    box-shadow: 0px 0px 32px 1px aqua;
+  }
+  
